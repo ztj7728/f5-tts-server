@@ -1,0 +1,63 @@
+#BackgroundFrame {
+    background-color: #2E3440;
+    border-radius: 12px;
+    border: 1px solid #4C566A;
+}
+#TitleBar {
+    background-color: #3B4252;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    /* height is removed to allow the layout to auto-size */
+}
+#TitleLabel {
+    color: #ECEFF4;
+    font-weight: bold;
+    /* padding-top is removed to allow layout to handle alignment */
+}
+QLabel {
+    color: #D8DEE9;
+    background-color: transparent;
+}
+#MinimizeButton, #CloseButton {
+    color: #2E3440;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 16px;
+    max-width: 16px;
+    min-height: 16px;
+    max-height: 16px;
+}
+#MinimizeButton { background-color: #EBCB8B; border-radius: 8px; }
+#MinimizeButton:hover { background-color: #d08770; }
+#CloseButton { background-color: #BF616A; border-radius: 8px; }
+#CloseButton:hover { background-color: #d08770; }
+QLineEdit, QTextEdit {
+    background-color: #434C5E;
+    border: 1px solid #4C566A;
+    border-radius: 8px;
+    padding: 8px;
+    color: #ECEFF4;
+}
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #88C0D0;
+}
+QPushButton {
+    background-color: #5E81AC;
+    color: #ECEFF4;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: bold;
+}
+QPushButton:hover { background-color: #81A1C1; }
+QPushButton:pressed { background-color: #88C0D0; }
+QPushButton:disabled { background-color: #4C566A; color: #6a7387; }
+QSlider::groove:horizontal {
+    border: 1px solid #4C566A; height: 4px; background: #434C5E;
+    margin: 2px 0; border-radius: 2px;
+}
+QSlider::handle:horizontal {
+    background: #E5E9F0; border: 1px solid #88C0D0;
+    width: 16px; height: 16px; margin: -7px 0; border-radius: 8px;
+}

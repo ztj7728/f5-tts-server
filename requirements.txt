@@ -1,0 +1,15 @@
+# GUI
+PyQt6
+
+# Audio
+pyaudio
+numpy
+
+# AI & Machine Learning
+openai
+f5-tts
+
+# Utilities
+python-dotenv
+hydra-core
+omegaconf
